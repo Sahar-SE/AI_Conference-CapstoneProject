@@ -49,13 +49,13 @@ hiddenSpeakers.classList.add('hidden-speakers');
 conventionSpeakers.forEach((speaker) => {
   const speakerDiv = document.createElement('div');
   speakerDiv.className = 'speaker';
-  speakerDiv.innerHTML = `<div class="speaker-img">
-          <img src="${speaker.picture}" alt="${speaker.name}">
+  speakerDiv.innerHTML = `<div class='speaker-img'>
+          <img src='${speaker.picture}' alt='${speaker.name}'>
         </div>
-        <div class="speaker-description">
-          <h3 class="speaker-name">${speaker.name}</h3>
-          <small class="speaker-title">${speaker.title}</small>
-          <hr class="gray-hr">
+        <div class='speaker-description'>
+          <h3 class='speaker-name'>${speaker.name}</h3>
+          <small class='speaker-title'>${speaker.title}</small>
+          <hr class='gray-hr'>
           <p class="speaker-info">${speaker.description}</p>
         </div>`;
   if (conventionSpeakers.indexOf(speaker) >= 2) {
