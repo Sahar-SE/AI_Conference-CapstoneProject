@@ -24,7 +24,7 @@ header #campaign {
 }
 
 .navbar-brand i {
-  font-size:40px;
+  font-size: 40px;
   padding-bottom: 3px;
   color: #ec5328;
 }
@@ -182,7 +182,7 @@ header #campaign {
 }
 
 .sec-header1 {
-  color:  #414246;
+  color: #414246;
 }
 
 .speak-con {
@@ -194,10 +194,11 @@ header #campaign {
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .speak-con {
     padding: 80px 0;
   }
+
 }
 
 .speak-con .section-header {
@@ -223,13 +224,14 @@ header #campaign {
   margin-left: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .speak-con #show-more {
     display: none;
   }
+
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   #speak {
     margin-top: 30px;
     padding: 0 6.25%;
@@ -238,6 +240,7 @@ header #campaign {
     grid-template-rows: 230px auto;
     grid-column-gap: 20px;
   }
+
 }
 
 .speaker {
@@ -246,10 +249,11 @@ header #campaign {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker {
     margin-bottom: 30px;
   }
+
 }
 
 .speaker .speaker-img {
@@ -258,16 +262,18 @@ header #campaign {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .speaker .speaker-img {
     background-image: url("img/chess.png");
   }
+
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker .speaker-img {
     background-size: 60px 60px;
   }
+
 }
 
 .speaker .speaker-img img {
@@ -278,11 +284,12 @@ header #campaign {
   padding-top: 12%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker .speaker-img img {
     width: 120px;
     height: 120px;
   }
+
 }
 
 .speaker .speaker-description {
@@ -295,17 +302,19 @@ header #campaign {
   font-weight: 600;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .speaker .speaker-description .speaker-name {
     font-size: 20px;
     color: #3e3e3e;
   }
+
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker .speaker-description .speaker-name {
     font-size: 15px;
   }
+
 }
 
 .speaker .speaker-description .speaker-title {
@@ -315,10 +324,11 @@ header #campaign {
   font-weight: 200;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker .speaker-description .speaker-title {
     font-size: 13px;
   }
+
 }
 
 .speaker .speaker-description .gray-hr {
@@ -334,11 +344,12 @@ header #campaign {
   font-size: 15px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .speaker .speaker-description .speaker-info {
     font-size: 10px;
     margin-bottom: 10%;
   }
+
 }
 
 .hidden-speakers {
@@ -346,7 +357,7 @@ header #campaign {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .hidden-speakers {
     grid-column: 1/span 2;
     overflow: visible;
@@ -361,6 +372,7 @@ header #campaign {
     height: auto;
     max-height: 180px;
   }
+
 }
 
 .hidden-speakers.visible {
