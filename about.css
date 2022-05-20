@@ -41,6 +41,12 @@ header #campaign {
   font-size: 15px;
 }
 
+@media screen and (max-width: 768px){
+  .top-header {
+    display: none;
+  }
+}
+
 .s {
   display: flex;
   flex-direction: row;
@@ -141,9 +147,27 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
+  gap: 12px;
   margin: 20px 2%;
   width: 100%;
   justify-content: center;
+}
+
+.img1 {
+  background-image: url("img/past-event-1.png");
+  margin-left: 2%;
+  padding: 100px;
+}
+
+.img2 {
+  background-image: url("img/past-event-1.jpg");
+  margin-right: 2%;
+  padding: 100px 180px;
+}
+
+.year {
+  color: white;
+  font-weight: 600;
 }
 
 .description {
