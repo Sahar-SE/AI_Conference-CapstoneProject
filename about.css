@@ -19,7 +19,7 @@ header #campaign {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #ec5242;
+  background-color: black;
   padding: 7px 180px;
   justify-content: flex-end;
   align-items: center;
