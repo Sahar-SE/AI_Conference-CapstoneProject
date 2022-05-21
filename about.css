@@ -1,0 +1,190 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header #campaign {
+  margin-left: 20px;
+  color: #ec5242;
+  font-weight: 600;
+  padding: 8px;
+  border: 3px solid #ec5242;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  padding: 7px 180px;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.top-header ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.top-header img {
+  width: 16px;
+  height: 16px;
+}
+
+.tp-link {
+  color: #fbfefb;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-header {
+    display: none;
+  }
+}
+
+.s {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 2px 4px 3px gray;
+}
+
+.navbar-brand i {
+  font-size: 40px;
+  padding-bottom: 3px;
+  color: #ec5328;
+}
+
+.head {
+  background-image: url(img/about-bg.png);
+  background-position: 0 0;
+  padding: 10% 20%;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+  padding-top: 80px;
+}
+
+h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  line-height: 1.3;
+  background: linear-gradient(to right, #e70e02, #fd5200, #f8961e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.about-con {
+  text-align: center;
+  padding: 25px 35px;
+  background-color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #595959;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+}
+
+.logo-section {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.logo {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin: 50px 5%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.orange {
+  width: 5%;
+  align-items: center !important;
+  border: 1px solid #ec5242;
+  margin: 0 45%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.para {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.foot {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 155px;
+  font-weight: bold;
+  width: 40%;
+  color: #ec5242;
+  margin: 30px 30%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.line {
+  border: 0.5px solid #d3d3d3;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  margin: 20px 2%;
+  width: 100%;
+  justify-content: center;
+}
+
+.img1 {
+  background-image: url("img/past-event-1.png");
+  margin-left: 2%;
+  padding: 100px;
+}
+
+.img2 {
+  background-image: url("img/past-event-1.jpg");
+  margin-right: 2%;
+  padding: 100px 180px;
+}
+
+.year {
+  color: white;
+  font-weight: 600;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #414246;
+}
+
+footer h2 {
+  font-size: 155px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+footer p {
+  color: white;
+}
