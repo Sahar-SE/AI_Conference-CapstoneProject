@@ -29,6 +29,9 @@ Contributions, issues, and feature requests are welcome!
 The link of my Portfolio GitHub io is: 
 ## Pls remember that github pages has issues frequently, this does not reflect on my code or work!
  https://sahar-se.github.io/AI_Conference-CapstoneProject/
+ 
+ # Acknowledgement
+ Behance Cindy Shine Design
 
 # Show your Support
 By giving me a Star✨
