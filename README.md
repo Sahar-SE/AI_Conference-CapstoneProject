@@ -31,7 +31,7 @@ The link of my Portfolio GitHub io is:
  https://sahar-se.github.io/AI_Conference-CapstoneProject/
  
  # Acknowledgement
- Behance Cindy Shine Design
+ Behance Cindy Shin Design
 
 # Show your Support
 By giving me a Star✨
