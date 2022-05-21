@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // dynamic featured speakers
 // retrieve elements to create dynamic speakers
 const speakersContainer = document.querySelector('#speak');
