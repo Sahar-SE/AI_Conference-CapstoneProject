@@ -41,7 +41,7 @@ header #campaign {
   font-size: 15px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .top-header {
     display: none;
   }
@@ -55,7 +55,7 @@ header #campaign {
 }
 
 .navbar-brand i {
-  font-size:40px;
+  font-size: 40px;
   padding-bottom: 3px;
   color: #ec5328;
 }
