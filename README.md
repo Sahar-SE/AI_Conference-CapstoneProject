@@ -26,8 +26,7 @@ Sahar Saba Amiri
 Contributions, issues, and feature requests are welcome!
 
 # links
-The link of my Portfolio GitHub io is: 
-## Pls remember that github pages has issues frequently, this does not reflect on my code or work!
+The Live Demo of this app in GitHub io is: 
 https://sahar-se.github.io/-AI_Conference_deploy/#
  
  # Acknowledgement
